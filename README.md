@@ -1,3 +1,6 @@
+## **Page Link**
+https://jairdiaz0.github.io/WorkoutRoutine/
+---
 # **Fitness Routine App**
 
 A modern, responsive web application designed to optimize your weekly workout routines. Built with **Angular**, **Bootstrap**, and a sleek design, this project is a comprehensive solution for fitness enthusiasts looking to track and maximize their training sessions.
@@ -38,7 +41,7 @@ Follow these steps to run the project locally:
    ```bash
    npm install
 
-
+---
 **Acknowledgments:**
 Designed and developed to optimize fitness routines.
 Inspired by modern UI/UX principles for fitness tracking.
