@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    /*Backgorunds-Color*/
+    --background-color-1: rgb(255, 255, 255, 0.4);
+    /*Backgorunds*/
+    --background-1: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1175%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(187%2c 187%2c 187%2c 1)'%3e%3c/rect%3e%3cpath d='M25.528%2c482.169C49.924%2c480.003%2c65.208%2c458.192%2c76.725%2c436.577C87.36%2c416.619%2c94.07%2c393.547%2c83.365%2c373.626C72.16%2c352.776%2c49.176%2c342.328%2c25.528%2c341.309C-0.302%2c340.196%2c-27.421%2c346.646%2c-41.64%2c368.239C-57.187%2c391.85%2c-58.638%2c422.97%2c-44.281%2c447.323C-30.124%2c471.336%2c-2.238%2c484.635%2c25.528%2c482.169' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1223.22 101.76 a172.49 172.49 0 1 0 344.98 0 a172.49 172.49 0 1 0 -344.98 0z' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M186.877%2c267.333C225.081%2c268.941%2c262.949%2c254.468%2c284.122%2c222.627C307.772%2c187.06%2c315.648%2c141.42%2c295.725%2c103.639C274.562%2c63.506%2c232.242%2c37.476%2c186.877%2c38.217C142.657%2c38.94%2c103.01%2c67.157%2c84.023%2c107.1C67.224%2c142.441%2c81.708%2c182.068%2c102.846%2c214.998C121.951%2c244.762%2c151.54%2c265.846%2c186.877%2c267.333' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1191.5950310536887 371.7408513333442L1123.0676940508677 485.7894922872587 1237.116335004782 554.3168292900798 1305.643672007603 440.2681883361652z' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M361.40263379919907 16.41110254596124L367.5390090248168 133.50011699316056 484.62802347201614 127.36374176754286 478.4916482463984 10.27472732034353z' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M663.3808699352114 251.4898540844641L725.8161554622233 197.2156884040633 613.1872641781162 130.699842953746z' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1226.363664127223 326.436934493683L1279.2969130512754 290.7330072702694 1199.2743977541288 229.1850974958976z' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M638.964%2c640.246C673.91%2c638.072%2c695.052%2c605.718%2c712.333%2c575.266C729.299%2c545.369%2c744.876%2c511.376%2c729.561%2c480.6C712.873%2c447.065%2c676.422%2c427.936%2c638.964%2c427.827C601.316%2c427.718%2c566.283%2c447.472%2c547.45%2c480.071C528.609%2c512.685%2c529.191%2c552.793%2c547.876%2c585.497C566.712%2c618.465%2c601.068%2c642.603%2c638.964%2c640.246' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M970.02 116.91 a139.39 139.39 0 1 0 278.78 0 a139.39 139.39 0 1 0 -278.78 0z' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M521.1132380300635 342.19129536561553L418.7784341002058 308.9407019586722 420.0699459547196 479.0682045569303z' fill='rgba(141%2c 140%2c 140%2c 0.6)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1175'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+body::before {
+    content: "";
+    background-image: var(--background-1);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+* {
+    letter-spacing: .1rem;
+}

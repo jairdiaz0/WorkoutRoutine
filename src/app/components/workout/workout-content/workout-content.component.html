@@ -1,0 +1,16 @@
+<div class="row mb-3 title p-5 rounded">
+    <div class="col-12">
+        <p class="h1 text-center">Rutina para el día: {{selectedDay?.name}}</p>
+        <p class="h5 text-center">{{selectedDay?.type}}</p>
+    </div>
+</div>
+<div class="row">
+    <ng-container *ngIf="exercises.length > 0; else noExercises">
+        <div class="col-12 col-md-6 col-lg-4 my-3" *ngFor="let exercise of exercises; let i = index">
+            <app-day-workout-card [exercise]="exercise" [index]="i"/>
+        </div>
+    </ng-container>
+    <ng-template #noExercises>
+        <p class="text-center text-muted">No hay ejercicios para este día.</p>
+    </ng-template>
+</div>

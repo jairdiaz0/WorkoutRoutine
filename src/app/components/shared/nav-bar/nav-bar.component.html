@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+        <div class="navbar-brand d-flex">
+            <img class="img-fluid icon" src="icons/nav-bar/workout.svg" alt="Icon">
+            <span class="h5 m-0 ms-4 align-self-center">Workout Routine</span>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+            aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li *ngFor="let day of days; let i = index" class="nav-item rounded px-2 text-center"
+                    [class.active]="isSelectedDay(day)" (click)="selectDay(day)">
+                    <div class="nav-link">
+                        <span class="day-label">{{ day.name }}</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

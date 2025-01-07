@@ -16,7 +16,21 @@
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
-    "module": "ES2022"
+    "module": "ES2022",
+    "paths": {
+      "@components-shared/*": [
+        "./src/app/components/shared/*"
+      ],
+      "@components-workout/*": [
+        "./src/app/components/workout/*"
+      ],
+      "@services/*": [
+        "./src/app/services/*"
+      ],
+      "@models/*": [
+        "./src/app/core/models/*"
+      ],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

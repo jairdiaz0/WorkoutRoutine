@@ -1,0 +1,9 @@
+.rounded-circle {
+    width: .7rem;
+    height: .7rem;
+}
+
+.custom-card {
+    cursor: pointer;
+    font-family: monospace;
+}

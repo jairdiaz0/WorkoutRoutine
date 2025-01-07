@@ -1,0 +1,15 @@
+.icon {
+    width: 3rem;
+}
+
+.active {
+    border-style: dashed;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+*{
+    color: white;
+}
